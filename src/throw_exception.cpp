@@ -6,7 +6,7 @@ using AviUtl::FilterPlugin;
 using AviUtl::detail::FilterPluginFlag;
 
 const char* kFilterName = "ThrowException";
-const char* kFilterInformation = "ThrowException v0.0.0 by karoterra";
+const char* kFilterInformation = "ThrowException v0.1.0 by karoterra";
 
 BOOL func_WndProc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam, AviUtl::EditHandle* editp, FilterPlugin* fp) {
     switch (message) {
